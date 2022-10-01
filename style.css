@@ -19,7 +19,7 @@ body {
 header {
   background: #000305;
   padding: 5em;
-  padding-bottom: 15em;
+  /* padding-bottom: 15em; */
   color: white;
 }
 a {
@@ -198,8 +198,11 @@ section#education {
   font-size: 3.5em;
 }
 .skill-con {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  /* grid-auto-columns: 500px; */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  gap: 20px;
 }
 .skill {
   margin: 2em;
@@ -436,6 +439,10 @@ section#education {
   }
 }
 @media (max-width: 490px) {
+  #skills {
+    width: 90%;
+    margin: auto;
+  }
   .name-headers h1 {
     font-size: 3em;
     width: 50%;
@@ -443,7 +450,18 @@ section#education {
   .contact-info h2 {
     font-size: 1.3em;
   }
+  .edu-work-con{
+    width: 90%;
+  }
   .edu-work-con h2 {
     font-size: 2em;
+  }
+  .lang-img{
+    width: 30px;
+    height: 30px;
+}
+  .skill-con {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
