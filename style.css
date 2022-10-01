@@ -201,6 +201,8 @@ section#education {
   display: grid;
   /* grid-auto-columns: 500px; */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  
+
   align-items: center;
   gap: 20px;
 }
@@ -461,7 +463,11 @@ section#education {
     height: 30px;
 }
   .skill-con {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  justify-content: center;
+  gap: 0px;
+
   }
 }
