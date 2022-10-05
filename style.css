@@ -438,6 +438,7 @@ section#education {
   }
   .skill {
     font-size: 1.2em;
+    margin: 0.5em;
   }
 }
 @media (max-width: 490px) {
@@ -461,6 +462,10 @@ section#education {
   .lang-img{
     width: 30px;
     height: 30px;
+}
+.skill{
+  margin: 0.5em;
+  
 }
   .skill-con {
     /* display: flex;

@@ -35,7 +35,7 @@ let tl = gsap.timeline({ defaults: { opacity: 0, ease: "linear" } });
 
 function init() {
     tl.from("#demo", {
-        ease: "linear",
+        ease: "power1.inOut",
         autoAlpha: 0
     })
         .from(".name-headers h1", { y: 0, duration: 1 })
