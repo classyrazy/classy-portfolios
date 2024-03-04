@@ -59,7 +59,8 @@ a {
   font-size: 2.5em;
 }
 .about-story p {
-  font-size: 1.5em;
+  margin-top: 1em;
+  font-size: 1.2em;
 }
 .contact-info {
   margin-top: 10em;
@@ -230,6 +231,7 @@ section#education {
   justify-content: space-between;
   transition: all 0.2s ease;
 }
+
 .each-project h3.project-name {
   font-size: 1.5em;
   font-family: "Poppins", sans-serif;
@@ -266,15 +268,21 @@ section#education {
   right: 0;
   z-index: -1;
 }
+
+.each-project .project-link-con {
+  color: white;
+}
 .project-link-con {
   text-align: end;
 }
 .project-link-con a {
   text-decoration: none;
+  color: white;
   margin: 0.5em;
 }
 .project-link-con a svg.hovered {
   fill: white;
+  color: white;
 }
 .each-project .tech-names{
   margin-top: 1em;
@@ -284,6 +292,11 @@ section#education {
 }
 .each-project .tech-names span{
   margin: 5px;
+}
+a.check-more-btn{
+  display: inline-block;
+  margin-top: 2em;
+
 }
 @media (max-width: 1200px) {
   .project-con {
@@ -475,4 +488,15 @@ section#education {
   gap: 0px;
 
   }
+}
+
+
+div.word > div.word{
+will-change: transform;
+transform: translateY(100%);
+  padding: 0rem;
+}
+div.word{
+  overflow-y: hidden;
+  vertical-align: top;
 }
