@@ -77,12 +77,12 @@ const handleHoveredLink = () => {
 
 
 const projects = [
-    {
-        title: "Payv3rse",
-        description: "Payv3rse is your gateway to seamless cryptocurrency exchange, gift card trading, and hassle-free bill payments",
-        skills: ["Nuxt", "vue3", "TailwindCSS", "GSAP", 'Dashboard'],
-        url: "https://payv3rse.co/"
-    },
+    // {
+    //     title: "Payv3rse",
+    //     description: "Payv3rse is your gateway to seamless cryptocurrency exchange, gift card trading, and hassle-free bill payments",
+    //     skills: ["Nuxt", "vue3", "TailwindCSS", "GSAP", 'Dashboard'],
+    //     url: "https://payv3rse.co/"
+    // },
     {
         title: "Boost",
         description: "Boost is an app that revolutionizes car rentals, providing innovative solutions for seamless mobility",
