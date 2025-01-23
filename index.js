@@ -158,6 +158,18 @@ const projects = [
         url: "https://contact-app-new.netlify.app/",
         github: "https://github.com/classyrazy/contact-App"
     },
+      {
+        title: "Billpoint",
+        description: "Billpoint is an app that allows you to pay your electricity, internet, and other utility bills quickly and easily from the palm of your hand.",
+        skills: ["Nuxt3", "vue3", "TailwindCSS", "GSAP", 'Dashboard'],
+        url: "https://app.billpoint.co/"
+    },
+      {
+        title: "Bitshop",
+        description: "Bitshop is an app that allows you to send cryptocurrency to your friends and family",
+        skills: ["Nuxt", "vue3", "TailwindCSS", "GSAP", 'Dashboard'],
+        url: "https://app.bitshop.ng/"
+    },
     {
         title: "Zuri ChatApp",
         description: 'A simple chat app to chat with people just by sending them an invite',
