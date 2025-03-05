@@ -146,6 +146,12 @@ const projects = [
         url: "https://kiakia.africa/"
     },
     {
+        title: "Abinibi",
+        description: "an online clothing store that blends African heritage with modern fashion, offering vibrant collections for men, women, and children.",
+        skills: ["TailwindCSS", "Typescript", "Vue3", "Nuxt3", "Nodejs"],
+        url: "https://abinibi.shop/"
+    },
+    {
         title: "Corep",
         description: 'Corep is a web app for university students giving them real-time update about their courses Still in progress',
         skills: ["SASS(parrot css)", "Vue3", "Nuxt 3", "Nodejs", "Avanda", "Typescript"],
