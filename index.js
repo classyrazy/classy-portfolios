@@ -126,6 +126,12 @@ const projects = [
         github: "https://github.com/classyrazy/hiree-server"
     },
     {
+        title: "Abinibi",
+        description: "an online clothing store that blends African heritage with modern fashion, offering vibrant collections for men, women, and children.",
+        skills: ["TailwindCSS", "Typescript", "Vue3", "Nuxt3", "Nodejs"],
+        url: "https://abinibi.shop/"
+    },
+    {
         title: "Hiree",
         description: "Hiree is a web app for developers looking for jobs and employers looking for developers.",
         skills: ["TailwindCSS", "Typescript", "Vue3", "Nuxt"],
@@ -146,16 +152,11 @@ const projects = [
         url: "https://kiakia.africa/"
     },
     {
-        title: "Abinibi",
-        description: "an online clothing store that blends African heritage with modern fashion, offering vibrant collections for men, women, and children.",
-        skills: ["TailwindCSS", "Typescript", "Vue3", "Nuxt3", "Nodejs"],
-        url: "https://abinibi.shop/"
-    },
-    {
         title: "Corep",
         description: 'Corep is a web app for university students giving them real-time update about their courses Still in progress',
         skills: ["SASS(parrot css)", "Vue3", "Nuxt 3", "Nodejs", "Avanda", "Typescript"],
-        url: "https://corep.ng/"
+        url: "https://corep.ng/",
+        github: "https://github.com/classyrazy/corep-dashboard-user/tree/develop"
     },
     {
         title: "Contact App",
