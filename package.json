@@ -1,0 +1,32 @@
+{
+  "name": "adewale-abdulrazaq-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Adewale Abdulrazaq - Software Engineer",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "build": "echo 'Static site - no build required'",
+    "start": "live-server --port=3000"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "portfolio",
+    "frontend",
+    "developer",
+    "javascript",
+    "vue",
+    "web-development"
+  ],
+  "author": "Adewale Abdulrazaq <o.abdulrazaq.a@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/classyrazy/classy-portfolios.git"
+  },
+  "homepage": "https://classydev.me"
+}
